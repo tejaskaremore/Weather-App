@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+body {
+  background-color: #222;
+  background-image: url('https://cdn.pixabay.com/photo/2023/09/10/11/11/storm-8244663_1280.jpg');
+  background-repeat:initial;
+
+}
+.CardBox {
+  text-align: center;
+
+}
+.Details {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 5px;
+  margin-top: 20px;
+}
+.Col {
+  display: flex;
+  align-items: center;
+}
+.Col img {
+  width: 40pox;
+  margin-right: 5px;
+}
+.weather {
+  display: none;
+}
+.error {
+  text-align: left;
+  margin-left: 10px;
+  font-size: 14px;
+  margin-top: 10px;
+  display: none;
+  color: aliceblue;
+}
